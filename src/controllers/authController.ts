@@ -113,6 +113,7 @@ export class AuthController {
         httpOnly: true,
         secure: isProduction,
         sameSite: "strict",
+        path: "/",
         maxAge: 15 * 60 * 1000, // 15 minutes
       });
 
@@ -120,6 +121,7 @@ export class AuthController {
         httpOnly: true,
         secure: isProduction,
         sameSite: "strict",
+        path: "/",
         maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
       });
 
@@ -254,6 +256,7 @@ export class AuthController {
         httpOnly: true,
         secure: isProduction,
         sameSite: "strict",
+        path: "/",
         maxAge: 15 * 60 * 1000, // 15 minutes
       });
 
@@ -261,6 +264,7 @@ export class AuthController {
         httpOnly: true,
         secure: isProduction,
         sameSite: "strict",
+        path: "/",
         maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
       });
 
@@ -374,6 +378,7 @@ export class AuthController {
         httpOnly: true,
         secure: isProduction,
         sameSite: "strict",
+        path: "/",
         maxAge: 15 * 60 * 1000, // 15 minutes
       });
 
